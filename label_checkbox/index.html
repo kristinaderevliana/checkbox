@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Список покупок</title>
+</head>
+<body>
+    <h2 style="margin-left: 20px;">Список покупок</h2>
+    <form>
+        <ol>
+            <!-- Продукты -->
+            <li style="font-weight: 700;">
+                <label for="foodmain"><strong>Продукты</strong></label>
+                <input type="checkbox" id="foodmain" name="foodmain" value="food">
+            </li>
+            <ul type="square">
+                <li>
+                    <label for="food1">Помидоры</label>
+                    <input type="checkbox" id="food1" name="food1" value="tomato">
+                </li>
+                <li>
+                    <label for="food2">Салат</label>
+                    <input type="checkbox" id="food2" name="food2" value="lettuce">
+                </li>
+                <li>
+                    <label for="food3">Йогурт</label>
+                    <input type="checkbox" id="food3" name="food3" value="yogurt">
+                </li>
+            </ul>
+            <br>
+            <!-- Для учебы -->
+            <li style="font-weight: 700;">
+                <label for="stydymain"><strong>Для учебы</strong></label>
+                <input type="checkbox" id="stydymain" name="stydymain" value="study">
+            </li>
+            <ul type="square">
+                <li>
+                    <label for="study1">Блокнот</label>
+                    <input type="checkbox" id="study1" name="study1" value="notebook">
+                </li>
+                <li>
+                    <label for="study2">Папка</label>
+                    <input type="checkbox" id="study2" name="study2" value="folder">
+                </li>
+                <li>
+                    <label for="study3">Скрепки</label>
+                    <input type="checkbox" id="study3" name="study3" value="paperclips">
+                </li>
+                <li>
+                    <label for="study4">Маркер</label>
+                    <input type="checkbox" id="study4" name="study4" value="marker">
+                </li>
+            </ul>
+            <br>
+            <!-- Косметика -->
+            <li style="font-weight: 700;">
+                <label for="cosmain"><strong>Косметика</strong></label>
+                <input type="checkbox" id="cosmain" name="cosmain" value="codmetics">
+            </li>
+            <ul type="square">
+                <li>
+                    <label for="cos1">Помада</label>
+                    <input type="checkbox" id="cos1" name="cos1" value="lipstick">
+                </li>
+                <li>
+                    <label for="cos2">Пудра</label>
+                    <input type="checkbox" id="cos2" name="cos2" value="powder">
+                </li>
+                <li>
+                    <label for="cos3">Крем для рук</label>
+                    <input type="checkbox" id="cos3" name="cos3" value="handcream">
+                </li>
+                <li>
+                    <label for="cos4">Духи</label>
+                    <input type="checkbox" id="cos4" name="cos4" value="parfume">
+                </li>
+            </ul>
+        </ol>
+    </form>
+</body>
+</html>
